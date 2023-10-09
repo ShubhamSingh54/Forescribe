@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidebar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* Hide scrollbar for Webkit/Blink based browsers */
+  .hidebar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .hidebar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
